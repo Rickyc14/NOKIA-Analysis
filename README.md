@@ -10,8 +10,8 @@ started to innovate the way technology is used.
 
 ![alt text](Rplot02.jpeg "NOKIA1")
 
-
-The graph below shows us a close-up of Nokia's stock price in the past six months. R's simple moving average method allows us to smooth stock spikes to get a better understanding of its future value. 
+<br><br>
+The graph below shows us a close-up of Nokia's stock price in the past six months. R's simple moving average method allows us to smooth stock spikes to get a better understanding of its future value. <br>
 
 
 
