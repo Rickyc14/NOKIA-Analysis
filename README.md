@@ -2,4 +2,4 @@
 
 
 
-![alt text](goo/plot01.jpeg "Description goes here")
+![alt text](goo/Rplot01.jpeg "Description goes here")
