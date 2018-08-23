@@ -2,4 +2,11 @@
 
 
 
-![alt text](Rplot01.jpeg "Title")
+![alt text](Rplot02.jpeg "NOKIA")
+
+
+
+
+
+
+![alt text](Rplot.jpeg "Title")
