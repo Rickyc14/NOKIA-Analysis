@@ -6,7 +6,8 @@ The R software is one the most used tools by economists and data analysts of all
 
 Founded in the mid-1800's, this Finnish Giant took Motorola's place at the end of the XX century and became the largest mobile phone
 manufacturer in the world. Despite its enormous growth, Nokia wasn't able to keep its market share when other huge companies like Apple
-started to innovate the way technology is used.
+started to innovate the way technology is used.<br>
+The graph below illustrates Nokia's <strong>closing stock price</strong> throughout the years. 
 ![alt text](Rplot02.jpeg "NOKIA1")
 
 
