@@ -12,7 +12,7 @@ The graph below illustrates Nokia's <strong>closing stock price</strong> through
 
 
 <br><br>
-The graph below shows us a close-up of Nokia's stock price in the past six months. R's <em>simple moving average</em> method allows us to smooth stock spikes to get a better understanding of its future value. <br>
+The graph below shows us a close-up of Nokia's stock price in the past six months. R's <em>simple moving average</em> method allows us to smooth stock spikes to get a better understanding of its future value. <br><br>
 
 
 
