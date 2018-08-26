@@ -21,7 +21,10 @@ This is a common data pattern for each trade computed and stored in the database
 :arrow_right: Check out my other GitHub repository [Apple-Amazon-Google-Analysis](https://github.com/Rickyc14/Apple-Amazon-Google-Analysis.git) for a more in-depth exemplification of the datatable description used in this project.
 
 ---
-<br><br>
+
+
+
+<br>
 Founded in the mid-1800's, this Finnish Giant took Motorola's place at the end of the XX century and became the largest mobile phone
 manufacturer in the world. Despite its enormous growth, Nokia wasn't able to keep its market share when other huge companies like Apple and Amazon started innovating the way technology is used.<br>
 
@@ -33,7 +36,7 @@ The graph below illustrates Nokia's <strong>closing stock price</strong> through
 
 
 <br><br>
-The graph below shows us a close-up of Nokia's stock price in the past six months. R's <em>simple moving average</em> method along with its `chartSeries` function allows some <em>noise</em> reduction. In other words, anything that doesn't reflect the genuine underlying trend will be detached -- like reactive traders interfering with the stock's real value by acting on assumptions, and not on qualitative/quantitative factors.  
+The graph <strong>below</strong> shows us a close-up of Nokia's stock price in the past six months. R's <em>simple moving average</em> method along with its `chartSeries` function allows for some <em>noise</em> reduction. In other words, anything that doesn't reflect the genuine underlying trend will be detached -- like reactive traders interfering with the stock's real value by acting on assumptions, and not on qualitative/quantitative factors.  
 
 
 <br><br>
