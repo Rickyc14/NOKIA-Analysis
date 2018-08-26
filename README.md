@@ -20,11 +20,14 @@ This is a common data pattern for each trade computed and stored in the database
 
 :arrow_right: Check out my other GitHub repository [Apple/Amazon/Google analysis](https://github.com/Rickyc14/Apple-Amazon-Google-Analysis.git) for a more in-depth exemplification of the datatable description used in this project.
 
-
+---
 <br><br>
 Founded in the mid-1800's, this Finnish Giant took Motorola's place at the end of the XX century and became the largest mobile phone
-manufacturer in the world. Despite its enormous growth, Nokia wasn't able to keep its market share when other huge companies like Apple
-started to innovate the way technology is used.<br><br>
+manufacturer in the world. Despite its enormous growth, Nokia wasn't able to keep its market share when other huge companies like Apple and Amazon started innovating the way technology is used.<br>
+
+ 
+
+<br><br>
 The graph below illustrates Nokia's <strong>closing stock price</strong> throughout the years. 
 ![alt text](data-plot/Rplot02.jpg "NOKIA1")
 
