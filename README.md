@@ -41,9 +41,12 @@ The graph below illustrates Nokia's <strong>closing stock price</strong> through
 <br><br>
 The graph <strong>below</strong> shows us a close-up of Nokia's stock price in the past six months. R's <em>simple moving average</em> function along with `chartSeries` allows for some <em>noise</em> reduction. In other words, anything that doesn't reflect the genuine underlying trend will be detached -- like reactive traders interfering with the stock's real value by acting on assumptions, and not on qualitative/quantitative factors.
 
+
 <br><br>
 ![alt text](data-plot/Rplot.jpg "NOKIA2")
-<br>
+<br><br>
+
+
 Among the many types of <em>moving averages</em>, this project uses a <em>simple moving average(SMA)</em> with <strong>`n`</strong> being the number of periods to recursively average over. Basically, after taking the average of the first <strong>`n`</strong> values, the next average will be of all `n[i]` values from before, but dismissing the `n[0]` value and adding `n[n+1]`.
 <br>
 
