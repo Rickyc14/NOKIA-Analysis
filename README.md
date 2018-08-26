@@ -68,7 +68,7 @@ float sum_all = 0.0;                          /// that's why this kind of proced
 float simple_ma[data_size];                     /// when dealing with a large data set
 for(int i = 0; i<data_size; i++)                
 {
-    sum_all = 0; /// sum_all must be zero before every SMA calculation
+    sum_all = 0; /// sum_all must be set to zero before every SMA calculation
     for(int e = i; e < i+10;e++)
     {
       sum_all += n[e];                 /// n[e] can be viewed as the value in each ROW from 
