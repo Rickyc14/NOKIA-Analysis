@@ -25,7 +25,7 @@ This is a common data pattern for each trade computed and stored in the database
 Founded in the mid-1800's, this Finnish Giant took Motorola's place at the end of the XX century and became the largest mobile phone
 manufacturer in the world. Despite its enormous growth, Nokia wasn't able to keep its market share when other huge companies like Apple and Amazon started innovating the way technology is used.<br>
 
- 
+ In recent years, Nokia attempted to regain some of its presence in the tech scene targetting more ambitious projects like virtual reality platforms and redesigning some of its old mobile phone models. After some struggle -- and the arrival of iOS and Android  -- its mobile phone division was eventually acquired by Microsoft. One year later, Nokia acquired its French counter-part <em>Alcatel-Lucent</em> for 15 billion, and even not being what it once was, they still are a key player in the development of technologies such as wireless services and mobile technologies as whole. 
 
 <br><br>
 The graph below illustrates Nokia's <strong>closing stock price</strong> throughout the years. 
@@ -33,7 +33,7 @@ The graph below illustrates Nokia's <strong>closing stock price</strong> through
 
 
 <br><br>
-The graph below shows us a close-up of Nokia's stock price in the past six months. R's <em>simple moving average</em> method allows us to smooth stock spikes to get a better understanding of its future value. <br><br>
+The graph below shows us a close-up of Nokia's stock price in the past six months. R's <em>simple moving average</em> method allows us to smooth stock spikes to get a better understanding of its future value. <br>
 
 
 
