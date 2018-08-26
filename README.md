@@ -18,7 +18,7 @@ This is a common data pattern for each trade computed and stored in the database
 <br>
 
 
-:arrow_right: Check out my other GitHub repository [Apple/Amazon/Google analysis](https://github.com/Rickyc14/Apple-Amazon-Google-Analysis.git) for a more in-depth exemplification of the datatable description used in this project.
+:arrow_right: Check out my other GitHub repository [Apple-Amazon-Google-Analysis](https://github.com/Rickyc14/Apple-Amazon-Google-Analysis.git) for a more in-depth exemplification of the datatable description used in this project.
 
 ---
 <br><br>
