@@ -4,10 +4,10 @@ The [R software](https://www.r-project.org/) is one the most used tools by econo
 
 All project files can be found above:
 - R source code files
-- <em>xlsx</em> dat files
+- <em>xlsx</em> data files
 - Sqlite3 data files
 - <em>jpeg</em> plot images
-- binary data files
+- R binary data files
 <br><br>
 This is a common data pattern for each trade computed and stored in the database:
 
