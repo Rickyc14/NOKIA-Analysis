@@ -7,8 +7,9 @@ All project files can be found above:
 - <em>xlsx</em> dat files
 - Sqlite3 data files
 - <em>jpeg</em> plot images
+- binary data files
 <br><br>
-This is a common data pattern for each trading computed and stored in the database:
+This is a common data pattern for each trade computed and stored in the database:
 
 |    DATE [0]    |    OPEN [1]    |    HIGH [2]    |     LOW [3]     |     CLOSE [4]    |     VOLUME [5]    |     ADJUSTED [6]     | 
 |:--------------:|:--------------:|:--------------:|:---------------:|:----------------:|:-----------------:|:--------------------:|
