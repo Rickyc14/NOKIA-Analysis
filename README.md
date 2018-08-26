@@ -66,7 +66,7 @@ It's very common to use different <strong>`n`</strong> values in the same data s
                                 
 #define data_size 1000                    /// note: when " i " gets to 991, simple_ma[991] won't have
 float n[data_size];                         /// a 10th value as part of its sum_all
-float sum_all;                          /// that's why this kind of procedure only makes sense
+float sum_all;                                /// that's why this kind of procedure only makes sense
 float simple_ma[data_size];                     /// when dealing with a large data set
 for(int i = 0; i<data_size; i++)                
 {
