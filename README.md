@@ -58,12 +58,12 @@ It's very common to use different <strong>`n`</strong> values in the same data s
 ```c
 /// if n = 10, then the values to be considered when calculating
 /// each simple moving average would be the following:  
-                                /// note: when " i " gets to 991, simple_ma[991] won't have
-#define data_size 1000            /// a 10th value as part of its sum_all
-float n[data_size];                /// that's why this kind of procedure only makes sense
-float sum_all = 0.0;                /// when dealing with a large data set
-float simple_ma[data_size];
-for(int i = 0; i<data_size; i++)
+                                
+#define data_size 1000                    /// note: when " i " gets to 991, simple_ma[991] won't have
+float n[data_size];                         /// a 10th value as part of its sum_all
+float sum_all = 0.0;                          /// that's why this kind of procedure only makes sense
+float simple_ma[data_size];                     /// when dealing with a large data set
+for(int i = 0; i<data_size; i++)                
 {
     sum_all = 0; /// sum_all must be zero before every SMA calculation
     for(int e = i; e < i+10;e++)
