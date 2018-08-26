@@ -9,9 +9,11 @@ All project files can be found above:
 - <em>jpeg</em> plot images
 - R binary data files
 
-<br>
+
+
 
 ---
+
 
 
 
@@ -21,8 +23,10 @@ manufacturer in the world. Despite its enormous growth, Nokia wasn't able to kee
 In recent years, Nokia attempted to regain some of its presence in the tech scene targetting more ambitious projects like virtual reality platforms and redesigning some of its old mobile phone models. After some struggle -- and the arrival of iOS and Android  -- its mobile phone division was eventually acquired by Microsoft. One year later, Nokia acquired its French counter-part <em>Alcatel-Lucent</em> for $15 billion, and even not being what it once was, they still are a key player in the development of technologies such as wireless services and mobile technologies as whole. 
 
 
-<br>
-* This is a common data pattern for each trade computed and stored in the database:
+
+<ul>
+<li> This is a common data pattern for each trade computed and stored in the database:<br>
+</ul>
 
 |    DATE [0]    |    OPEN [1]    |    HIGH [2]    |     LOW [3]     |     CLOSE [4]    |     VOLUME [5]    |     ADJUSTED [6]     | 
 |:--------------:|:--------------:|:--------------:|:---------------:|:----------------:|:-----------------:|:--------------------:|
