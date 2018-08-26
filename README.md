@@ -54,8 +54,10 @@ Among the many types of <em>moving averages</em>, this project uses a <em>simple
 addSMA(n=20,col="cyan")   # different colors to visualize the behavior of
 addSMA(n=10,col="red")    # different ' n ' values by themselves AND as whole
 ```
-It's very common to use different <strong>`n`</strong> values in the same data set as seen in the R functions above. They can be compared with each other to determine crucial aspects. For instance, choosing `n=50` and `n=200` is a very common approach, if the moving average of `n=50` remains above `n=200`'s moving average, then it's common to assume future nice returns. 
-        - as a general rule, if the price is above the moving average then the <strong>trend</strong> is <strong>up</strong>.
+It's very common to use different <strong>`n`</strong> values in the same data set as seen in the R functions above. They can be compared with each other to determine crucial aspects. For instance, choosing `n=50` and `n=200` is a very common approach, if the moving average of `n=50` remains above `n=200`'s moving average, then it's common to assume good returns from the investment.<br>
+* As a general rule, if the price is above the moving average then the <strong>trend</strong> is <strong>up</strong>.<br>
+        
+        
 ```c
 ///   ---  C code to calculate all moving averages from a data set  --- 
 ///
