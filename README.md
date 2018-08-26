@@ -36,10 +36,13 @@ In recent years, Nokia attempted to regain some of its presence in the tech scen
 
 
 > <em>From Apple-Amazon-Google-Analysis</em><br>
-> When trying to derive meaning from this type of collection, it's a good idea to focus on the <strong>closing stock price</strong>. Although it is not a good indicator on its own, visualizing it throughout many years can pose as a good representation of a company's success.
+> When trying to derive meaning from this type of collection, it's a good idea to focus on the <strong>closing stock price</strong>. Although it is not a good indicator on its own, visualizing it throughout many years can pose as a good representation of a company's success.<br>
+
 
 <br><br>
-The graph below illustrates Nokia's <strong>closing stock price</strong> throughout the years.<br>
+The graph below illustrates Nokia's <strong>closing stock price</strong> throughout the years.
+
+<br><br>
 ![alt text](data-plot/Rplot02.jpg "NOKIA1")
 
 
@@ -47,7 +50,7 @@ The graph below illustrates Nokia's <strong>closing stock price</strong> through
 
 
 <br><br>
-The graph <strong>below</strong> shows us a close-up of Nokia's stock price in the past six months. R's <em>simple moving average</em> function along with `chartSeries` allows for some <em>noise</em> reduction. In other words, anything that doesn't reflect the genuine underlying trend will be detached -- like reactive traders interfering with the stock's real value by acting on assumptions, and not on qualitative/quantitative factors.
+The graph <strong>below</strong> shows us a close-up of Nokia's stock price in the past six months. R's <em>simple moving average</em> function along with `chartSeries` allows for some <strong><em>noise</em> reduction</strong>. In other words, anything that doesn't reflect the genuine underlying trend will be detached -- like reactive traders interfering with the stock's real value by acting on assumptions, and not on qualitative/quantitative factors.
 
 
 <br><br>
