@@ -34,13 +34,10 @@ In recent years, Nokia attempted to regain some of its presence in the tech scen
 |:--------------:|:--------------:|:--------------:|:---------------:|:----------------:|:-----------------:|:--------------------:|
 |   2018-08-09   |     207.28     |     209.78     |      207.2      |      208.88      |  2 3 4 6 9 2 0 0  |        208.15        |
 
-<br>
-
-
 
 
 <br><br>
-The graph below illustrates Nokia's <strong>closing stock price</strong> throughout the years. 
+The graph below illustrates Nokia's <strong>closing stock price</strong> throughout the years.<br>
 ![alt text](data-plot/Rplot02.jpg "NOKIA1")
 
 
