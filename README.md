@@ -26,7 +26,7 @@ Founded in the mid-1800's, this Finnish Giant took Motorola's place at the end o
 manufacturer in the world. Despite its enormous growth, Nokia wasn't able to keep its market share when other huge companies like Apple
 started to innovate the way technology is used.<br><br>
 The graph below illustrates Nokia's <strong>closing stock price</strong> throughout the years. 
-![alt text](data-plot/Rplot02.jpeg "NOKIA1")
+![alt text](data-plot/Rplot02.jpg "NOKIA1")
 
 
 <br><br>
@@ -34,4 +34,4 @@ The graph below shows us a close-up of Nokia's stock price in the past six month
 
 
 
-![alt text](data-plot/Rplot.jpeg "NOKIA2")
+![alt text](data-plot/Rplot.jpg "NOKIA2")
