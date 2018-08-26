@@ -41,11 +41,10 @@ The graph below illustrates Nokia's <strong>closing stock price</strong> through
 <br><br>
 The graph <strong>below</strong> shows us a close-up of Nokia's stock price in the past six months. R's <em>simple moving average</em> function along with `chartSeries` allows for some <em>noise</em> reduction. In other words, anything that doesn't reflect the genuine underlying trend will be detached -- like reactive traders interfering with the stock's real value by acting on assumptions, and not on qualitative/quantitative factors.
 
-
 <br><br>
 ![alt text](data-plot/Rplot.jpg "NOKIA2")
-<br><br>
-Among the many types of <em>moving averages</em>, this project uses a <em>simple moving average(SMA)</em> with <strong>`n`</strong> being the number of periods to recursively average over. Basically, after taking the average of the first <strong>`n`</strong> values, the next average will be all `n[i]` values from before, but dismissing the `n[0]` value and adding `n[n+1]`. 
+<br>
+Among the many types of <em>moving averages</em>, this project uses a <em>simple moving average(SMA)</em> with <strong>`n`</strong> being the number of periods to recursively average over. Basically, after taking the average of the first <strong>`n`</strong> values, the next average will be of all `n[i]` values from before, but dismissing the `n[0]` value and adding `n[n+1]`.
 <br>
 
 ```
@@ -53,3 +52,18 @@ addSMA(n=20,col="cyan")
 addSMA(n=10,col="red")  
 ```
 
+```c
+/// if n = 10, then the values to be considered will be the following:
+#DEFINE data_size 1000
+float n[data_size];
+float sum_all = 0.0;
+float simple_ma[data_size];
+for(int i = 0; i<data_size; i++)
+{
+    for(int e = i; e < i+10;e++)
+    {
+      sum_all += n[e]; 
+    }
+    simple_ma[i] = (sum_all/10);
+}
+```
