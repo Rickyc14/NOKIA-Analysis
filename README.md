@@ -1,6 +1,6 @@
 # NOKIA-Analysis
 
-The [R software](https://www.r-project.org/) is one the most used tools by economists and data analysts of all kinds. Although it would be possible to achieve similar results by other means like Python's packages <em>BeatifulSoup</em> and the [yahoo-finance module](https://pypi.org/project/yahoo-finance/) itself, R allows users to retrieve massive amounts of data from many different places with just a few lines of code using packages like [quantmod](https://cran.r-project.org/web/packages/quantmod/index.html) and analyze it by plotting and/or checking relationships between values.<br>
+The [R software](https://www.r-project.org/) is one the most used tools by economists and data analysts of all kinds. Although it would be possible to achieve similar results by other means like Python's packages <em>BeatifulSoup</em>, R allows users to retrieve massive amounts of data from many different places with just a few lines of code using packages like [quantmod](https://cran.r-project.org/web/packages/quantmod/index.html) and [quandl](https://docs.quandl.com/). It's worth noting that most R packages are also available for other platforms, but in general and under this context, R's performance is superior. <br>
 
 All project files can be found above:
 - R source code files
