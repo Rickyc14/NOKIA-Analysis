@@ -47,22 +47,25 @@ The graph <strong>below</strong> shows us a close-up of Nokia's stock price in t
 <br><br>
 
 
-Among the many types of <em>moving averages</em>, this project uses a <em>simple moving average(SMA)</em> with <strong>`n`</strong> being the number of periods to recursively average over. Basically, after taking the average of the first <strong>`n`</strong> values, the next average will be of all `n[i]` values from before, but dismissing the `n[0]` value and adding `n[n+1]`.
+Among the many types of <em>moving averages</em>, this project uses a <em>simple moving average(SMA)</em> with <strong>`n`</strong> being the number of periods to recursively average over. Basically, after taking the average of the first <strong>`n`</strong> values, the next average will be of all `n[n]` values from before, but dismissing the `n[0]` value and adding `n[n+1]`.
 <br>
 
+```r
+addSMA(n=20,col="cyan")   # different colors to visualize the behavior of
+addSMA(n=10,col="red")    # different ' n ' values by themselves AND as whole
 ```
-addSMA(n=20,col="cyan") 
-addSMA(n=10,col="red")  
-```
-
+It's very common to use different <strong>`n`</strong> values in the same data set as seen in the R functions above. They can be compared with each other to determine crucial aspects. For instance, choosing `n=50` and `n=200` is a very common approach, if the moving average of `n=50` remains above `n=200`'s moving average, then it's common to assume future nice returns. 
 ```c
-/// if n = 10, then the values to be considered will be the following:
-#DEFINE data_size 1000
-float n[data_size];
-float sum_all = 0.0;
+/// if n = 10, then the values to be considered when calculating
+/// each simple moving average would be the following:  
+                                /// note: when " i " gets to 991, simple_ma[991] won't have
+#define data_size 1000            /// a 10th value as part of its sum_all
+float n[data_size];                /// that's why this kind of procedure only makes sense
+float sum_all = 0.0;                /// when dealing with a large data set
 float simple_ma[data_size];
 for(int i = 0; i<data_size; i++)
 {
+    sum_all = 0; /// sum_all must be zero before every SMA calculation
     for(int e = i; e < i+10;e++)
     {
       sum_all += n[e]; 
