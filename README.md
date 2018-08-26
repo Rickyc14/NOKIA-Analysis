@@ -55,7 +55,10 @@ addSMA(n=20,col="cyan")   # different colors to visualize the behavior of
 addSMA(n=10,col="red")    # different ' n ' values by themselves AND as whole
 ```
 It's very common to use different <strong>`n`</strong> values in the same data set as seen in the R functions above. They can be compared with each other to determine crucial aspects. For instance, choosing `n=50` and `n=200` is a very common approach, if the moving average of `n=50` remains above `n=200`'s moving average, then it's common to assume future nice returns. 
+        - as a general rule, if the price is above the moving average then the <strong>trend</strong> is <strong>up</strong>.
 ```c
+///   ---  C code to calculate all moving averages from a data set  --- 
+///
 /// if n = 10, then the values to be considered when calculating
 /// each simple moving average would be the following:  
                                 
@@ -68,8 +71,8 @@ for(int i = 0; i<data_size; i++)
     sum_all = 0; /// sum_all must be zero before every SMA calculation
     for(int e = i; e < i+10;e++)
     {
-      sum_all += n[e]; 
-    }
-    simple_ma[i] = (sum_all/10);
+      sum_all += n[e];                 /// n[e] can be viewed as the value in each ROW from 
+    }                                    /// a specific COLUMN (e.g. CLOSE[4])
+    simple_ma[i] = (sum_all/10);          /// in that case, data_size = number of ROWS in the CLOSE[4] COLUMN
 }
 ```
