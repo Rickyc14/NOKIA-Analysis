@@ -35,7 +35,7 @@ In recent years, Nokia attempted to regain some of its presence in the tech scen
 |   2018-08-09   |     207.28     |     209.78     |      207.2      |      208.88      |  2 3 4 6 9 2 0 0  |        208.15        |
 
 
-> <em>From Apple-Amazon-Google-Analysis</em><br>
+> <em>From Apple-Amazon-Google-Analysis:</em><br>
 > When trying to derive meaning from this type of collection, it's a good idea to focus on the <strong>closing stock price</strong>. Although it is not a good indicator on its own, visualizing it throughout many years can pose as a good representation of a company's success.
 
 
